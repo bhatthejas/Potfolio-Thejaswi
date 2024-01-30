@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#link{
+    text-decoration: none;
+    color: white;
+}
+.logoblock {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoblock h1 {
+    padding-left: 30px;
+    margin: 0;
+    color: white; /* Text color for the logo */
+}
+
+nav {
+    background-color: #151515; /* Background color for the entire navigation bar */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 600px;
+    list-style: none;
+}
+
+.menublock ol li:hover{
+    border: 1px solid blue;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.6); /* Adjusted box-shadow color to green */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.homeblcok{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.social-media > button >img {
+    height: 30px;
+    width: 30px;
+}
+.content{
+    margin-top: 150px;
+    height: 500px;
+    width: 500px;
+    line-height: 40px;
+}
+.imageblock > img{
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.myself{
+    height: 100px;
+}
+.about{
+    background-color: black;
+    color: white;
+}
+.skills{
+    padding-left: 100px;
+    line-height: 30px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+
+.Expereince{
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 30px;
+    background-color: #333;    
+    border-radius: 10px;
+    color: white;
+}
+.Expereince h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.education{
+    padding-right: 100px;
+    padding-left: 100px;
+    line-height: 30px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+.education h1{
+    padding-top: 10px;
+    text-align: center;
+}
+.education table{
+    width: 100%;
+}
+.education p{
+    color: black;
+}
+.skills > h3{
+    color: aquamarine;
+}
+.aboutpage{
+    background-color: black;
+    height: 95vh;
+}
+.aboutaside{
+    padding-top: 30px;
+    margin-left: 180px;
+    width: 75%;
+}
+.aboutaside ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutaside ul li:hover{
+    border-bottom: 2px solid red;
+}
+.aboutaside ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.aboutmain{
+    margin-top: 30px;
+    width: 75%;
+    margin-left: 180px;
+    border-radius: 50px;
+}
+.skills h1{
+    padding-top: 10px;
+    padding-right: 50px;
+    text-align: center;
+}
+.project{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projectsect{
+    background-color:beige;
+    height: 95vh;
+}
+.projectsect h1{
+    text-align: center;
+}
+.projects{
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.projects li{
+    list-style: none;
+}
+.contact{
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+}

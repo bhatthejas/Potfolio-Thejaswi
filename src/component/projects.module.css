@@ -1,0 +1,47 @@
+/* Assuming Style.projectsect, Style.project, and Style.projects are classes */
+
+.projectsect {
+  background-color: black; /* Set a black background color for the entire project section */
+  padding: 20px;
+  text-align: center;
+  height: 95vh;
+  color: white; /* Set text color to white for better visibility on a dark background */
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projects {
+  background-color: #333; /* Set a dark background color for individual projects */
+  border: 1px solid #555; /* Add a border for separation */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  width: 30%; /* Adjust the width of individual project containers */
+  text-align: left;
+  transition: transform 0.3s ease-in-out; /* Adding a smooth transition effect on hover */
+}
+
+.projects:hover {
+  transform: scale(1.05); /* Enlarge the project container on hover */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Add a subtle box shadow on hover */
+}
+
+.projects h2 {
+  color: #fff; /* Set the heading color to white */
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Add any additional styles based on your design preferences */
